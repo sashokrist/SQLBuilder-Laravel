@@ -4,7 +4,7 @@ To install and run the project follow these steps:
 
 run in console: 
 - git clone git@github.com:sashokrist/SQLBuilder-Laravel.git
-- cd /booking-hotel-system-api_chocolate-ice-cream
+- cd SQLBuilder-Laravel
 - composer install
 - cp .env.example .env
 - php artisan key:generate
