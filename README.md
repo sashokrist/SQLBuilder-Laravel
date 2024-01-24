@@ -1,5 +1,9 @@
 ## About SQLBuilder project
 
+SQLBuilder interface for Laravel, which defines methods for constructing SQL queries.
+
+The following methods are available: select, where, limit, getSQL.
+
 To install and run the project follow these steps:
 
 run in console: 
@@ -10,7 +14,7 @@ run in console:
 - php artisan key:generate
 - php artisan serve
 
-  Screenshots:
+Screenshots:
 
 index page: http://127.0.0.1:8000/sqlbuilder
 
