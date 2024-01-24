@@ -110,6 +110,13 @@
                 }
             });
         }
+
+        $(document).ready(function () {
+            $('#resultModal').on('hidden.bs.modal', resetForm);
+            function resetForm() {
+                $('#sqlForm')[0].reset();
+            }
+        });
     </script>
 </div>
 </body>
