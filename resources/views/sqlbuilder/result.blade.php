@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SQL Query Result</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -26,7 +25,31 @@
     </p>
     <p><strong>Limit Start:</strong> {{ $limitStart }}</p>
     <p><strong>Limit Offset:</strong> {{ $limitOffset }}</p>
-    <a href="{{ url('/sqlbuilder') }}" class="btn btn-primary">Back to Builder</a>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#resultModal">
+        View Result in Modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resultModalLabel">Generated SQL Query Result</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Query:</strong> {{ $query }}</p>
+                    <!-- Add other details as needed -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <!-- Bootstrap JS and dependencies -->

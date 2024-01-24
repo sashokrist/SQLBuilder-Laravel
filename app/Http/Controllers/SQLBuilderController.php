@@ -48,7 +48,7 @@ class SQLBuilderController extends Controller
 
         $query = $builder->getSQL();
 
-        return view('sqlbuilder.result', [
+        return response()->json([
             'query' => $query,
             'table' => $table,
             'fields' => $fields,
