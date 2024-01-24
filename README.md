@@ -1,4 +1,4 @@
-## About SQLBuilder project
+## About SQLBuilder project | Laravel 10 | PHP 8.1 | Bootstrap 4.3
 
 SQLBuilder interface for Laravel defines methods for constructing SQL queries.
 
