@@ -1,6 +1,6 @@
 ## About SQLBuilder project
 
-SQLBuilder interface for Laravel, which defines methods for constructing SQL queries.
+SQLBuilder interface for Laravel defines methods for constructing SQL queries.
 
 The following methods are available: select, where, limit, getSQL.
 
