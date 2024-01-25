@@ -18,9 +18,12 @@ Screenshots:
 
 index page: http://127.0.0.1:8000/sqlbuilder
 
-<img width="515" alt="SQL_builder" src="https://github.com/sashokrist/SQLBuilder-Laravel/assets/11788009/2a8292e5-6f56-40d8-9f65-c8e880262713">
+<img width="625" alt="SQL_builder" src="https://github.com/sashokrist/SQLBuilder-Laravel/assets/11788009/14f959df-55e5-4a30-8861-97d5fab0ced7">
+
 
 result modal on index page:
 
-<img width="358" alt="result" src="https://github.com/sashokrist/SQLBuilder-Laravel/assets/11788009/1258c05e-9d4e-4401-ad44-6b04101a1c7b">
+<img width="644" alt="result" src="https://github.com/sashokrist/SQLBuilder-Laravel/assets/11788009/1b72e441-c797-4744-8517-859cafb75890">
+
+
 
